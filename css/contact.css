@@ -1,0 +1,159 @@
+#titre{
+
+	font-size: medium;
+
+	font-weight: bold;
+
+	color: black;
+
+}
+
+h3,h4,#champ{
+
+	color: black;
+
+}
+
+
+
+#contenu_email {
+
+width: 340px;
+
+height: 100px;
+
+} 
+
+
+
+#bloccontact{
+
+	margin-left: 15%;
+
+	margin_top: -20%
+
+}
+
+.form_col {
+
+  display: inline-block;
+
+  color: black;
+
+  padding: 3px 0px;
+
+  width: 100px;
+
+  min-height: 1px;
+
+  text-align: left;
+
+}
+
+
+
+.tooltip {
+
+	display: inline-block;
+
+	font-size: 1em;
+
+	margin-left: 20px;
+
+	color: red;
+
+	padding: 2px 4px;
+
+}
+
+.tooltip1 {
+
+	display: inline-block;
+
+	font-size: 1em;
+
+	margin-left: 20px;
+
+	padding: 2px 4px;
+
+	color: red;
+
+}
+
+input {
+
+	padding: 2px;
+
+	border: 1px solid #CCC;
+
+	-moz-border-radius: 2px;
+
+	-webkit-border-radius: 2px;
+
+	border-radius: 2px;
+
+	outline: none; /* Retire la bordure orange appliquée par certains navigateurs (Chrome notamment) lors du focus des éléments <input> */
+
+	}
+
+
+
+input:focus {
+
+	border-color: rgba(82, 168, 236, 0.75);
+
+	-moz-box-shadow: 0 0 8px rgba(82, 168, 236, 0.5);
+
+	-webkit-box-shadow: 0 0 8px rgba(82, 168, 236, 0.5);
+
+	box-shadow: 0 0 8px rgba(82, 168, 236, 0.5);
+
+}
+
+
+
+
+
+
+
+.correct {
+
+	border-color: rgba(68, 191, 68, 0.75);
+
+}
+
+
+
+.correct:focus {
+
+	border-color: rgba(68, 191, 68, 0.75);
+
+	-moz-box-shadow: 0 0 8px rgba(68, 191, 68, 0.5);
+
+	-webkit-box-shadow: 0 0 8px rgba(68, 191, 68, 0.5);
+
+	box-shadow: 0 0 8px rgba(68, 191, 68, 0.5);
+
+}
+
+
+
+.incorrect {
+
+	border-color: rgba(191, 68, 68, 0.75);
+
+}
+
+
+
+.incorrect:focus {
+
+	border-color: rgba(191, 68, 68, 0.75);
+
+	-moz-box-shadow: 0 0 8px rgba(191, 68, 68, 0.5);
+
+	-webkit-box-shadow: 0 0 8px rgba(191, 68, 68, 0.5);
+
+	box-shadow: 0 0 8px rgba(191, 68, 68, 0.5);
+
+}
